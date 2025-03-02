@@ -1,0 +1,27 @@
+:root {
+    --font-family: "Arsenal", sans-serif;
+
+	--index: calc(1vw + 1vh);
+	--transition-cursor: 2s cubic-bezier(.05, .5, 0, 1);
+	--transition: 1.25s cubic-bezier(.2, .5, 0, 1);
+
+	--light-color: #f5f5f5;
+	--dark-color: #151515;
+
+	--light-border: rgb(255 255 255 / .09);
+	--dark-border: rgb(0 0 0 / .09);
+
+	--light-hover: rgb(255 255 255 / .05);
+	--dark-hover: rgb(0 0 0 / .05);
+
+	--light-step: rgb(255 255 255 / .025);
+	--dark-step: rgb(0 0 0 / .025);
+
+    color-scheme: light dark;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
